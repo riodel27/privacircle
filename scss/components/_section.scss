@@ -1,0 +1,538 @@
+
+
+.publishers{
+	width: 100%;
+	padding: rem-calc(20);
+	background-color: #fafafa;
+	border-top: rem-calc(1) solid rgba(0, 0, 0, 0.1);
+	border-bottom: rem-calc(1) solid rgba(0, 0, 0, 0.1);
+
+		
+						@include bp(tablet){
+							padding: rem-calc(50) 0 rem-calc(100) 0;
+						}
+	
+
+		img{
+			width: 100%;
+			margin-top: rem-calc(30);
+
+		
+						@include bp(tablet){
+							width: 45%;
+							// float: left;
+						}
+
+		}
+
+	.publishers_content{
+		width: 100%;
+		padding: rem-calc(50) 0;
+		h2{
+			margin-top: rem-calc(20);
+			color: $black;
+			font-weight: bold;
+		}
+
+		p{
+			font-size: rem-calc(12);
+			color: $light-gray;
+			text-align: justify;
+		}
+
+		a{
+			font-size: rem-calc(13);
+		}
+
+					@include bp(tablet){
+							width: 35%;
+							display: block;
+							margin-right: rem-calc(80);
+							float: right;
+							h2{
+								font-weight: normal;
+								font-size: rem-calc(25);
+								letter-spacing: rem-calc(1);
+							}
+
+							p{
+								font-size: rem-calc(11);
+							}
+
+							a{
+								font-size: rem-calc(10);
+							}
+
+					}
+
+					@include bp(desktop){
+						margin-top: rem-calc(30);
+						margin-right: rem-calc(120);
+
+						p{
+							padding-right: rem-calc(20);
+						}
+					}
+
+					@include bp(wide){
+						margin-top: rem-calc(50);
+						margin-right: rem-calc(150);
+
+							h2{
+								font-size: rem-calc(35);
+							}
+
+							p{
+								width: 70%;
+							}
+					}
+
+	}
+
+}
+
+//--------------------------------------------------------------------------------------------->
+
+.privacy{
+	width: 100%;
+	padding-top: rem-calc(50);
+	text-align: center;
+
+			@include bp(tablet){
+				padding-bottom: rem-calc(50);
+			}
+
+
+	h4{
+		color: $dark-gray;
+		text-align: center;
+		margin-bottom: rem-calc(15);
+
+			@include bp(tablet){
+				width: 60%;
+				margin: rem-calc(20) 0 0 0;
+				display: inline-block;
+				text-align: center;
+			}
+
+			@include bp(desktop){
+				width: 50%;
+			}
+
+			@include bp(wide){
+				width: 50%;
+				font-size: rem-calc(35);
+
+			}
+	}
+
+	p{
+		color:$light-gray;
+		font-size: rem-calc(9);
+		text-align: center;
+		width: 65%;
+		margin: rem-calc(20) auto;
+
+			@include bp(tablet){
+				width: 35%;
+			}
+
+			@include bp(wide){
+				width: 30%;
+				font-size: rem-calc(15);
+			}
+	}
+
+	div{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		padding: rem-calc(50) rem-calc(30);
+
+		img{
+			margin-bottom: rem-calc(20);
+		}
+
+		h5{
+			color: $primary-color;
+			font-size: rem-calc(15);
+			font-weight: bold;
+			margin-bottom: 0;
+
+		}
+
+		p{
+			font-size: rem-calc(10);
+			margin-top: rem-calc(10);
+		}
+
+				@include bp(tablet){
+					width: 20%;
+					display: inline-block;
+					padding:0;
+					margin: rem-calc(40) rem-calc(15) rem-calc(30) rem-calc(15);
+
+					img{
+						padding: rem-calc(30);
+
+					}
+
+					h5{
+						font-size: rem-calc(10);
+					}
+
+					p{
+						margin: 0;
+						padding: rem-calc(10);
+						font-size: rem-calc(8);
+						width: 100%;
+					}
+				}
+
+				@include bp(desktop){
+
+					p{
+						width: 80%;
+						font-size: rem-calc(10);
+						margin: 0 auto;
+					}
+				}
+
+				@include bp(wide){
+
+					h5{
+						font-size: rem-calc(16);
+						font-weight:normal;
+					}
+
+					p{
+						font-size: rem-calc(15);
+					}
+				}
+
+		
+	}
+
+
+}
+
+//--------------------------------------------------------------------------------------------->
+
+.people{
+	width: 100%;
+	background-color: #fafafa;
+	border-top: rem-calc(1) solid rgba(0, 0, 0, 0.1);
+	border-bottom: rem-calc(1) solid rgba(0, 0, 0, 0.1);
+	padding: rem-calc(50) 0;
+
+			@include bp(tablet){
+				margin: 0;
+				padding:0;
+			}
+
+	.img_people{
+		width: 100%;
+		padding: rem-calc(30);
+
+			@include bp(tablet){
+				width: 50%;
+				padding: rem-calc(60);
+				margin: 0;
+			}
+
+			@include bp(desktop){
+				width: 40%;
+				padding: rem-calc(120) 0  rem-calc(120)  rem-calc(120);
+				margin-left: rem-calc(20);
+			}
+
+			@include bp(wide){
+				width: 30%;
+				margin-left: rem-calc(150);
+				padding: rem-calc(100) 0  rem-calc(100)  rem-calc(100);
+			}
+
+	}
+
+	div{
+		width: 100%;
+		padding: rem-calc(30);
+
+		h2{
+			color: $dark-gray;
+			margin-bottom: rem-calc(30);
+		}
+
+		p{
+			font-size: rem-calc(12);
+			color: $light-gray;
+			margin-bottom: rem-calc(20);
+		}
+
+		a{
+			display: inline-block;
+			color: $light-gray;
+			font-size: rem-calc(12);
+			margin-bottom: rem-calc(10);
+
+
+
+
+
+		}
+
+		.checkmark{
+			margin-right: rem-calc(8);
+					}
+
+
+							@include bp(tablet){
+								width: 50%;
+								display: inline-block;
+								margin-top: rem-calc(40);
+								padding:rem-calc(50) rem-calc(50) rem-calc(50) 0;
+								float: right;
+
+
+									h2{
+										
+										font-size: rem-calc(23);		
+										font-weight:normal;							
+									}
+							}
+
+							@include bp(desktop){
+									padding: 0;
+									margin-top: rem-calc(160);
+
+
+										h2{
+											width: 60%;
+
+										}
+
+										a{
+											
+											display: block;
+										}
+
+							}
+
+							@include bp(wide){
+								margin-top: rem-calc(140);
+								// margin-right: rem-calc(0px);
+
+										h2{
+											font-size: rem-calc(35);
+										}
+							}
+
+
+
+							
+
+
+	}
+}
+
+
+//--------------------------------------------------------------------------------------------->
+
+
+.referral{
+	width: 100%;
+
+
+			@include bp(tablet){
+				padding: rem-calc(50);
+			}
+
+	img{
+		width: 100%;
+		padding: rem-calc(30);
+		margin-top: rem-calc(30);
+
+			@include bp(tablet){
+				width: 50%;
+				margin: 0;
+				padding: rem-calc(50);
+			}
+
+			@include bp(desktop){
+				width: 40%;
+				margin-left: rem-calc(50);
+			}
+
+			@include bp(wide){
+				width: 30%;
+				margin-left: rem-calc(200);
+			}
+	}
+
+	div{
+		width: 100%;
+		padding: rem-calc(30);
+		margin-bottom: rem-calc(30);
+
+			h2{
+				color: $dark-gray;
+				margin-bottom: rem-calc(20);
+			}
+
+			p{
+				color: $light-gray;
+				font-size: rem-calc(12);
+
+			}
+
+			a{
+				color: $primary-color;
+				font-size: rem-calc(10);
+				font-weight: bold;
+
+			}
+
+						@include bp(tablet){
+							width: 50%;
+							display: inline-block;
+							float: right;
+							margin-top: rem-calc(130);
+							padding:0;
+
+
+							h2{
+								font-size: rem-calc(25);
+							}
+						}
+
+						@include bp(desktop){
+
+							p{
+								width: 70%;
+							}
+						}
+
+						@include bp(wide){
+							margin-top: rem-calc(180);
+							h2{
+								font-size: rem-calc(35);
+							}
+						}
+
+	}
+}
+
+
+//--------------------------------------------------------------------------------------------->
+
+.tryit{
+	width: 100%;
+	background-color: $dark-gray;
+	margin: 0 auto;
+	padding: rem-calc(50) rem-calc(20);
+	text-align: center;
+
+		@include bp(tablet){
+			padding: rem-calc(100) 0;
+		}
+
+
+	h1{
+		color: $white;
+		font-size: rem-calc(35);
+		margin-bottom: rem-calc(20);
+
+			@include bp(wide){
+				font-size: rem-calc(40);
+			}
+	}
+
+	p{
+		color: $light-gray;
+		font-size: rem-calc(11);
+		margin-bottom: rem-calc(50);
+
+			@include bp(wide){
+				font-size: rem-calc(15);
+			}
+	}
+
+	form{
+		padding: rem-calc(25);
+
+			
+
+		}
+
+	.email{
+		background-color: $dark-gray;
+		background-image: url('../img/img_envelope.png');
+		background-position: rem-calc(5) rem-calc(5);
+		background-repeat: no-repeat;
+		padding-left: rem-calc(40);
+		border-top: rem-calc(1) solid #555555;
+		border-bottom: rem-calc(1) solid #555555;
+		border-left: 0;
+		border-right: 0;
+		border-radius: 0;
+		font-size: rem-calc(10);
+		margin: 0 auto;
+
+			@include bp(tablet){
+				width:: 30%;
+				margin: 0 auto;
+			}
+
+			@include bp(desktop){
+				width: 23%;
+
+			}
+
+			@include bp(wide){
+				width: 20%;
+			}
+	}
+
+	.password{
+		background-color: $dark-gray;
+		background-image: url('../img/img_lock.png');
+		background-position: rem-calc(5) rem-calc(5);
+		background-repeat: no-repeat;
+		padding-left: rem-calc(40);
+		border-top: rem-calc(1) solid #555555;
+		border-bottom: rem-calc(1) solid #555555;
+		border-left: 0;
+		border-right: 0;
+		border-radius: 0;
+		font-size: rem-calc(10);
+		margin: 0 auto;
+
+			@include bp(tablet){
+				width: 30%;
+				margin: 0 auto;
+				
+			}
+
+			@include bp(desktop){
+				width: 23%;
+			}
+
+				@include bp(wide){
+				width: 20%;
+			}
+
+	}
+
+	a{
+		font-size: rem-calc(10);
+		padding: rem-calc(10) rem-calc(50);
+
+			@include bp(tablet){
+				margin-top: rem-calc(10);
+			}
+
+			@include bp(wide){
+				padding: rem-calc(10) rem-calc(80 );
+			}
+	}
+}

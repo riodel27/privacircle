@@ -1,0 +1,23 @@
+.hero{
+	padding: rem-calc(30);
+	margin: 0 auto;
+	text-align: center;
+
+		@include bp(tablet){
+			padding: rem-calc(50) rem-calc(100);
+		}
+
+
+	h1{
+		color: $black;
+		text-align: center;
+	}
+
+	img{
+		margin-bottom: rem-calc(50);
+
+	}
+
+
+}
+

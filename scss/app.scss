@@ -1,8 +1,12 @@
 @charset 'utf-8';
 
-@import 'settings';
+
+@import 'settings/foundation';
+@import 'tools/mixins';
 @import 'foundation';
 @import 'motion-ui';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -48,3 +52,10 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+
+//Components
+@import 'components/header';
+@import 'components/hero';
+@import 'components/section';
+@import 'components/footer';
